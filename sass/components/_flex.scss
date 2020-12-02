@@ -1,0 +1,54 @@
+.flexBase{
+    display: flex;
+    align-items: baseline;
+}
+
+.flexAround{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexColo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexMargAuto{
+    display: flex;
+    margin: auto;
+}
+
+.flexCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexJustCent{
+    display: flex;
+    justify-content: center;
+}
+
+.flexAlignCent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flexBottom{
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexWrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

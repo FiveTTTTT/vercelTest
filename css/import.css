@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+h1 {
+  font-size: 69px;
+  color: #42495b;
+  line-height: 1.5; }
+
+h2 {
+  font-size: 50px;
+  color: #42495b; }
+
+h3 {
+  font-size: 50px;
+  margin: 7px 7px 7px 0; }
+
+.nintyD {
+  transform: rotate(90deg); }
+
+.miniBlTitle {
+  color: #7E76F9;
+  font-size: 20px;
+  font-family: "Lobster", cursive; }
+
+.blTitle {
+  color: #7E76F9;
+  font-family: "Lato", sans-serif;
+  font-size: 25px; }
+
+p {
+  font-size: 16px; }
+
+hr {
+  width: 35%;
+  border: solid 1px #42495b;
+  margin: auto;
+  display: none; }
+
+.buttSpe {
+  padding: 10px 30px;
+  background: linear-gradient(to left, #6156f9 12%, #1a129f 50%);
+  border-radius: 25px;
+  margin: 30px 0; }
+
+.buttSpe2 {
+  padding: 6px 18px;
+  border: solid 1px #1000ff;
+  border-radius: 25px;
+  margin: 30px 0;
+  font-size: 18px;
+  color: #42495b; }
+
+.buttSpe2:hover {
+  background: linear-gradient(to left, #6156f9 12%, #1a129f 50%);
+  color: white; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+header {
+  background: no-repeat url("../../img/wave.png");
+  background-size: 55%;
+  background-position: top right;
+  width: 100%;
+  position: relative; }
+  header .normTitle {
+    font-size: 50px;
+    font-weight: normal;
+    display: block; }
+  header .headNav {
+    padding-top: 2%;
+    height: 20vh; }
+    header .headNav .logo p {
+      margin: 30px 0;
+      padding-bottom: 50px;
+      font-family: "Dosis", sans-serif;
+      font-weight: bold;
+      font-size: 40px; }
+    header .headNav section img {
+      width: 70%; }
+    header .headNav section nav a {
+      margin: 10px; }
+  header .forBeezbeez {
+    align-items: center; }
+    header .forBeezbeez p {
+      margin: 20px 0; }
+    header .forBeezbeez .picturePhone img {
+      width: 80%; }
+  header .mouseD {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-radius: 100%;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16); }
+    header .mouseD img {
+      width: 40px;
+      height: 40px;
+      background-color: #ffffff; }
+  header .resSoc {
+    width: 15%;
+    justify-content: flex-end;
+    height: 80vh; }
+    header .resSoc .traceR {
+      margin: 10px;
+      margin: 20px; }
+    header .resSoc img {
+      width: 10px;
+      height: 10px;
+      margin: 20px; }
+  header .traceR {
+    width: 3px;
+    height: 29px;
+    background-image: linear-gradient(to left, #6156f9 12%, #1a129f 50%); }
+
+main .whoWeR {
+  margin-bottom: 120px;
+  width: 100%; }
+  main .whoWeR .whoWeRImg {
+    margin: 10px; }
+  main .whoWeR .whoWeRTxt {
+    background: center/cover url("../../img/background-we-are.png");
+    margin: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main .whoWeR .whoWeRTxt p {
+      width: 80%; }
+    main .whoWeR .whoWeRTxt a {
+      width: 25%; }
+
+main .toOffer {
+  background: bottom/contain url("../../img/background-service.png") no-repeat;
+  padding-bottom: 25vh; }
+  main .toOffer p {
+    font-family: "Lato", sans-serif; }
+  main .toOffer .toOfferT {
+    margin: 0 10%; }
+  main .toOffer .toOfferD {
+    width: 25%;
+    height: 80vh;
+    margin: 40px;
+    position: relative;
+    padding: 21.2px 28.5px 27.3px 32.1px;
+    border-radius: 36px;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+    background-color: white; }
+    main .toOffer .toOfferD p {
+      font-size: 14px;
+      width: 100%;
+      text-align: left;
+      color: #42495b; }
+    main .toOffer .toOfferD h3 {
+      font-size: 16px;
+      margin: 30px 0;
+      width: 100%;
+      text-align: left; }
+    main .toOffer .toOfferD .buttSpe {
+      position: absolute;
+      bottom: 0;
+      right: 60px;
+      font-size: 12px; }
+
+main .ourPrice {
+  background-color: rgba(126, 118, 249, 0.2);
+  padding: 90px 60px; }
+  main .ourPrice .ourPriceS {
+    display: flex; }
+    main .ourPrice .ourPriceS .ourPriceD {
+      width: 25%;
+      margin: 32px;
+      padding: 57px 39.4px 52px 40.1px;
+      border-radius: 36px;
+      box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+      background-color: white; }
+      main .ourPrice .ourPriceS .ourPriceD h6 {
+        margin: 0 10px;
+        font-family: "Lobster", cursive;
+        font-size: 28px;
+        color: #42495b; }
+      main .ourPrice .ourPriceS .ourPriceD p {
+        text-align: center;
+        color: #7A839E;
+        margin: 69px 0 36px; }
+      main .ourPrice .ourPriceS .ourPriceD strong {
+        font-size: 30px;
+        color: #1000ff; }
+
+main .speNew {
+  height: 40vh; }
+  main .speNew .titleNew {
+    font-size: 32px; }
+  main .speNew .flexAlignCent {
+    width: 50%; }
+    main .speNew .flexAlignCent .buttSpe {
+      margin: 13px;
+      padding: 8px 30px; }
+    main .speNew .flexAlignCent .textAreaNew {
+      color: #999999;
+      margin: 13px;
+      border-radius: 5px;
+      width: 66.66667%;
+      font-size: 12px;
+      padding: 18px 30px;
+      background-color: #f7f7f7; }
+
+footer {
+  height: 80vh;
+  background: bottom/contain url("../../img/footer.png") no-repeat;
+  width: 100%;
+  color: white;
+  padding-bottom: 10vh; }
+  footer .flexJustCent {
+    width: 100%; }
+    footer .flexJustCent section {
+      width: 20%; }
+    footer .flexJustCent .fooT .logo {
+      font-size: 50px; }
+    footer .flexJustCent .fooT p {
+      font-size: 31px; }
+    footer .flexJustCent .fooT a img {
+      width: 20px;
+      height: 20px;
+      margin: 10px; }
+    footer .flexJustCent .fooL .lilTitle {
+      font-size: 20px;
+      margin-bottom: 5vh; }
+    footer .flexJustCent .fooL p {
+      font-size: 16px; }
+    footer .flexJustCent .fooL .flexColo {
+      align-items: flex-start; }
+    footer .flexJustCent .fooH .lilTitle {
+      font-size: 20px;
+      margin-bottom: 5vh; }
+    footer .flexJustCent .fooH p {
+      font-size: 16px;
+      width: 80%;
+      position: relative; }
+      footer .flexJustCent .fooH p span {
+        position: absolute;
+        right: 0; }
+    footer .flexJustCent .fooC .lilTitle {
+      font-size: 20px;
+      margin-bottom: 5vh; }
+    footer .flexJustCent .fooC p {
+      font-size: 16px; }
+    footer .flexJustCent .fooC .phoneP:before {
+      content: url("../../img/oldhandphone.png");
+      margin: 10px; }
+    footer .flexJustCent .fooC .mailP:before {
+      content: url("../../img/envelope.png");
+      margin: 10px; }
+    footer .flexJustCent .fooC .mapP:before {
+      content: url("../../img/map_marker_icon.png");
+      margin: 10px; }
+
+.flexBase {
+  display: flex;
+  align-items: baseline; }
+
+.flexAround {
+  display: flex;
+  justify-content: space-around; }
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between; }
+
+.flexColo {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.flexMargAuto {
+  display: flex;
+  margin: auto; }
+
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.flexJustCent {
+  display: flex;
+  justify-content: center; }
+
+.flexAlignCent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.flexBottom {
+  display: flex;
+  align-items: flex-end; }
+
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+@media (max-width: 400px) {
+  hr {
+    display: block; }
+  header {
+    position: relative; }
+    header .headNav {
+      position: relative; }
+      header .headNav .logo {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 20%; }
+        header .headNav .logo p {
+          font-size: 24px;
+          margin: 0; }
+        header .headNav .logo img {
+          width: 100%;
+          margin: 0; }
+      header .headNav .flexAlignCent {
+        position: absolute;
+        flex-wrap: wrap;
+        top: 0px;
+        right: 0%;
+        width: 50%; }
+    header .forBeezbeez {
+      flex-direction: column-reverse;
+      margin: 20% 10% 10% 20%; }
+      header .forBeezbeez .resSoc {
+        position: absolute;
+        top: 0;
+        left: 0; }
+        header .forBeezbeez .resSoc .nintyD {
+          transform: rotate(0deg); }
+      header .forBeezbeez h1 {
+        font-size: 34.5px; }
+        header .forBeezbeez h1 .normTitle {
+          font-size: 25px; }
+      header .forBeezbeez .firstImp .buttSpe {
+        margin: auto; }
+      header .forBeezbeez .picturePhone img {
+        margin-top: 10%; }
+    header .mouseD {
+      display: none; }
+  main {
+    margin-top: 20vh; }
+    main h2 {
+      font-size: 40px; }
+    main .whoWeR {
+      display: block; }
+      main .whoWeR .whoWeRImg img {
+        width: 100%; }
+      main .whoWeR .whoWeRTxt {
+        background-size: contain; }
+        main .whoWeR .whoWeRTxt .buttSpe {
+          width: 40%; }
+    main .toOffer .toOfferT {
+      margin: 10px; }
+    main .toOffer .flexWrap .toOfferD {
+      width: auto;
+      box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.6); }
+    main .ourPrice {
+      padding: 10px; }
+      main .ourPrice .ourPriceS .ourPriceD {
+        width: 80%; }
+    main .speNew p {
+      text-align: center; }
+    main .speNew .flexAlignCent {
+      flex-direction: column;
+      width: 100%; }
+      main .speNew .flexAlignCent .textAreaNew {
+        width: 80%; }
+  .flexBottom {
+    display: block;
+    position: relative;
+    height: 100vh;
+    background-position: top; }
+    .flexBottom .flexJustCent {
+      display: block;
+      position: absolute;
+      top: 15vh;
+      background: linear-gradient(to left, #6156f9 12%, #1a129f 50%); }
+      .flexBottom .flexJustCent section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10% 0; } }

@@ -1,0 +1,60 @@
+// font
+$dosis: 'Dosis', sans-serif;
+$lato: 'Lato', sans-serif;
+$lobst: 'Lobster', cursive;
+$pop: 'Poppins', sans-serif;
+
+$ftSizeLogo: 40px;
+$ftSizeTitleS: 50px;
+$ftSizeTitleB: 69px;
+$lilTitleF: 20px;
+$lilTxtF: 16px;
+
+
+
+// margin padding
+$padTopHead: 2%;
+
+//colors
+$white: rgb(255, 255, 255);
+$blueLivide: #7E76F9;
+$blueLivideLight: rgba(126, 118, 249, 0.2);
+$greySoft: rgb(247,247,247);
+$greyBlue:#7A839E;
+$darkGrey:#42495b;
+$darkGreyLight:rgba(126, 118, 249, 0.1);
+$darkGreyLessLight:rgba(126, 118, 249, 0.6);
+$grey: #999999;
+
+$blue:#1000ff;
+$blueGrad: linear-gradient(to left, #6156f9 12%, #1a129f 50%);
+
+
+// sizes
+$allW: 100%;
+$allH: 100vh;
+$imgPhone: 70%;
+
+// position
+$posAbs: absolute;
+$posRela: relative;
+
+
+// backgrounds
+$bgHeader: no-repeat url("../../img/wave.png");
+
+
+$bgWhoWeR: center / cover url("../../img/background-we-are.png");
+$bgToOffer: bottom / contain url("../../img/background-service.png") no-repeat;
+$bgFooter: bottom / contain url("../../img/footer.png") no-repeat;
+
+$posiTopRi: top right; 
+
+// icones
+$iconPhon: url("../../img/oldhandphone.png");
+$iconMail: url("../../img/envelope.png");
+$iconMap: url("../../img/map_marker_icon.png");
+
+
+
+

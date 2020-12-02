@@ -1,0 +1,284 @@
+header {
+    background: $bgHeader;
+    background-size: $allW * 0.55;
+    background-position: $posiTopRi;
+
+
+    width: $allW;
+    .normTitle {
+        font-size: $ftSizeTitleS;
+        font-weight: normal;
+        display: block;
+    }
+
+    .headNav {
+        padding-top: $padTopHead;
+        height: $allH/5;
+
+        .logo {
+            p {
+                margin: 30px 0;
+                padding-bottom: 50px;
+                font-family: $dosis;
+                font-weight: bold;
+                font-size: $ftSizeLogo;
+            }
+        }
+        section {
+            img {
+                width: $imgPhone;
+            }
+            nav {
+                a {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    .forBeezbeez {
+        align-items: center;
+        p {
+            margin: 20px 0;
+        }
+        .picturePhone {
+            img {
+                width: 80%;
+            }
+        }
+    }
+    position: $posRela;
+    .mouseD {
+        width: 80px;
+        height: 80px;
+        position: $posAbs;
+        bottom: 0;
+        left: 50%;
+        border-radius: 100%;
+        box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+        img {
+            width: 40px;
+            height: 40px;
+
+            background-color: #ffffff;
+        }
+    }
+    .resSoc {
+        width: 15%;
+        justify-content: flex-end;
+        height: 80vh;
+        
+        .traceR {
+            margin: 10px;
+            margin: 20px;
+        }
+        img {
+            width: 10px;
+            height: 10px;
+            margin: 20px;
+        }
+    }
+    .traceR {
+        width: 3px;
+        height: 29px;
+        background-image: $blueGrad;
+    }
+}
+
+main {
+    .whoWeR {
+
+        margin-bottom: 120px;
+        width: $allW;
+        .whoWeRImg {
+            margin: 10px;
+        }
+        .whoWeRTxt {
+            background: $bgWhoWeR;
+            margin: 10px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            p {
+                width: $allW * 0.8;
+            }
+            a {
+                width: 25%;
+            }
+        }
+    }
+
+    .toOffer {
+        background: $bgToOffer;
+        padding-bottom: 25vh;
+        p {
+            font-family: $lato;
+        }
+        .toOfferT {
+            margin: 0 10%;
+        }
+        .toOfferD {
+            width: 25%;
+            height: $allH * 0.8;
+            margin: 40px;
+            position: $posRela;
+            padding: 21.2px 28.5px 27.3px 32.1px;
+            border-radius: 36px;
+            box-shadow: 0 10px 20px 0 $darkGreyLight;;
+            background-color: $white;
+
+            p {
+                font-size: 14px;
+                width: $allW;
+                text-align: left;
+                color: $darkGrey;
+            }
+            h3 {
+                font-size: 16px;
+                margin: 30px 0;
+                width: $allW;
+                text-align: left;
+            }
+            .buttSpe {
+                position: $posAbs;
+                bottom: 0;
+                right: 60px;
+                font-size: 12px;
+            }
+        }
+    }
+    .ourPrice {
+        background-color: $blueLivideLight;
+        padding: 90px 60px ;
+        .ourPriceS {
+            display: flex;
+
+            .ourPriceD {
+                width: 25%;
+                margin: 32px;
+                padding: 57px 39.4px 52px 40.1px;
+                border-radius: 36px;
+                box-shadow: 0 10px 20px 0 $darkGreyLight;
+                background-color: $white;
+
+                h6 {
+                    margin: 0 10px;
+                    font-family: $lobst;
+                    font-size: 28px;
+                    color: $darkGrey;
+                }
+                p {
+                    text-align: center;
+                    color: $greyBlue;
+                    margin: 69px 0 36px;
+                }
+                strong {
+                    font-size: 30px;
+                    color: $blue;
+                }
+            }
+        }
+    }
+
+    .speNew {
+        height: $allH * 0.4;
+        .titleNew {
+            font-size: 32px;
+        }
+        .flexAlignCent {
+            width: $allW/2;
+
+            .buttSpe {
+                margin: 13px;
+                padding: 8px 30px;
+            }
+            .textAreaNew {
+                color:$grey;
+                margin: 13px;
+                border-radius: 5px;
+                width: 2 * $allW/3;
+                font-size: 12px;
+                padding: 18px 30px;
+                background-color: $greySoft;
+            }
+        }
+    }
+}
+
+footer {
+    height: $allH * 0.8;
+    background: $bgFooter;
+    width: $allW;
+    color: $white;
+    padding-bottom: 10vh;
+    .flexJustCent {
+        width: 100%;
+        section {
+            width: 20%;
+        }
+        .fooT {
+            .logo {
+                font-size: $ftSizeTitleS;
+            }
+            p {
+                font-size: 31px;
+            }
+
+            a {
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin: 10px;
+                }
+            }
+        }
+        .fooL {
+            .lilTitle {
+                font-size: $lilTitleF;
+                margin-bottom: 5vh;
+            }
+            p {
+                font-size: $lilTxtF;
+            }
+            .flexColo {
+                align-items: flex-start;
+            }
+        }
+        .fooH {
+            .lilTitle {
+                font-size: $lilTitleF;
+                margin-bottom: 5vh;
+            }
+            p {
+                font-size: $lilTxtF;
+                width: $allW * 0.8;
+                position: $posRela;
+                span {
+                    position: $posAbs;
+                    right: 0;
+                }
+            }
+        }
+        .fooC {
+            .lilTitle {
+                font-size: $lilTitleF;
+                margin-bottom: 5vh;
+            }
+            p {
+                font-size: $lilTxtF;
+            }
+            .phoneP:before {
+                content: $iconPhon;
+                margin: 10px;
+            }
+            .mailP:before {
+                content: $iconMail;
+                margin: 10px;
+            }
+            .mapP:before {
+                content: $iconMap;
+                margin: 10px;
+            }
+        }
+    }
+}

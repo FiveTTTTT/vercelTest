@@ -1,0 +1,78 @@
+@import "../helpers/variables.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $pop;
+}
+
+h1 {
+    font-size: $ftSizeTitleB;
+    color: $darkGrey;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 50px;
+    color: $darkGrey;
+
+}
+h3{
+    font-size: 50px;
+    margin: 7px 7px 7px 0;
+
+}
+
+.nintyD{
+    transform: rotate(90deg);
+}
+
+.miniBlTitle{
+    color: $blueLivide;
+    font-size: 20px;
+    font-family: $lobst;
+}
+
+.blTitle {
+    color: $blueLivide;
+    font-family: $lato;
+    font-size: 25px;
+    
+}
+
+p{
+    font-size: 16px;
+}
+
+hr{
+    width: 35%;
+    border: solid 1px $darkGrey;
+    margin: auto;
+    display: none;
+}
+
+.buttSpe {
+    padding: 10px 30px;
+    background: $blueGrad;
+    border-radius: 25px;
+    margin: 30px 0;
+}
+
+.buttSpe2 {
+    padding: 6px 18px;
+    border: solid 1px $blue;
+    border-radius: 25px;
+    margin: 30px 0;
+    font-size: 18px;
+    color: $darkGrey;
+}
+.buttSpe2:hover{
+    background: $blueGrad;
+    color: $white;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
